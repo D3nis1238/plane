@@ -16,7 +16,7 @@ class Main extends Phaser.Scene {
       //Додаємо літак на сцену
       this.plane = this.physics.add.sprite(0, 0, "plane");
       //Масштабуємо літак
-      this.plane.setScale(0.65, 0.65);
+      this.plane.setScale(0.65, 1);
       //Встановлюємо опорну точку літака
       this.plane.setOrigin(0, 0.5);
       this.anims.create({
